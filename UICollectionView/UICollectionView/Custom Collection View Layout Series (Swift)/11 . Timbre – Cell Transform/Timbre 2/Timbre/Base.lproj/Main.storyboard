@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cqd-2h-ynq">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Tutorials View Controller-->
+        <scene sceneID="w3L-d5-k1C">
+            <objects>
+                <collectionViewController id="cqd-2h-ynq" customClass="TutorialsViewController" customModule="Timbre" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="47v-ZC-2VB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="SvK-sg-7GU" customClass="TimbreLayout" customModule="Timbre" customModuleProvider="target">
+                            <size key="itemSize" width="200" height="200"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TutorialCell" id="Rod-S0-ksF" customClass="TutorialCell" customModule="Timbre" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tutorial" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVn-b4-5C2">
+                                            <rect key="frame" x="10" y="10" width="180" height="33"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="24"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speaker" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25Y-Qj-IFl">
+                                            <rect key="frame" x="10" y="169" width="180" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="lQS-Kp-raI"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time, Room" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQD-08-CUm">
+                                            <rect key="frame" x="10" y="146" width="180" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="xLi-fX-xv3"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" red="0.26666668059999998" green="0.53725492949999998" blue="0.57647061349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="iVn-b4-5C2" firstAttribute="leading" secondItem="Rod-S0-ksF" secondAttribute="leading" constant="10" id="80B-pT-LCl"/>
+                                    <constraint firstItem="25Y-Qj-IFl" firstAttribute="top" secondItem="WQD-08-CUm" secondAttribute="bottom" constant="2" id="815-hz-vMg"/>
+                                    <constraint firstItem="iVn-b4-5C2" firstAttribute="top" secondItem="Rod-S0-ksF" secondAttribute="top" constant="10" id="A9m-nh-8qY"/>
+                                    <constraint firstItem="WQD-08-CUm" firstAttribute="leading" secondItem="Rod-S0-ksF" secondAttribute="leading" constant="10" id="BRU-Cl-I1p"/>
+                                    <constraint firstItem="25Y-Qj-IFl" firstAttribute="leading" secondItem="Rod-S0-ksF" secondAttribute="leading" constant="10" id="Dat-j6-D1g"/>
+                                    <constraint firstAttribute="trailing" secondItem="iVn-b4-5C2" secondAttribute="trailing" constant="10" id="GER-N6-KoA"/>
+                                    <constraint firstAttribute="bottom" secondItem="25Y-Qj-IFl" secondAttribute="bottom" constant="10" id="GgB-cw-hi6"/>
+                                    <constraint firstAttribute="trailing" secondItem="25Y-Qj-IFl" secondAttribute="trailing" constant="10" id="Q3a-xp-sKj"/>
+                                    <constraint firstAttribute="trailing" secondItem="WQD-08-CUm" secondAttribute="trailing" constant="10" id="Ti4-SJ-VdW"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="speakerLabel" destination="25Y-Qj-IFl" id="sGe-vi-9ni"/>
+                                    <outlet property="timeAndRoomLabel" destination="WQD-08-CUm" id="QUk-Jb-gKQ"/>
+                                    <outlet property="titleLabel" destination="iVn-b4-5C2" id="RaQ-Mk-dLC"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="cqd-2h-ynq" id="Jh3-3f-joV"/>
+                            <outlet property="delegate" destination="cqd-2h-ynq" id="wSD-mQ-j7w"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q4V-iF-aSU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="503" y="401"/>
+        </scene>
+    </scenes>
+</document>
