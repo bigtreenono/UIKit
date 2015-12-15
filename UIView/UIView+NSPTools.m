@@ -23,7 +23,6 @@
     return nil;
 }
 
-
 - (UIImageView *)snapshot
 {
     UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, 0);
@@ -46,6 +45,26 @@
     CAShapeLayer *layer = [CAShapeLayer layer];
     layer.path = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:UIRectCornerAllCorners cornerRadii:CGSizeMake(radius, radius)].CGPath;
     self.layer.mask = layer;
+}
+
++ (void)registerNibForCellToTableView:(UITableView *)tableView
+{
+    [tableView registerNib:[self nib] forCellReuseIdentifier:[self reuseIdentifier]];
+}
+
++ (void)registerNibForHeaderFooterToTableView:(UITableView *)tableView
+{
+    [tableView registerNib:[self nib] forHeaderFooterViewReuseIdentifier:[self reuseIdentifier]];
+}
+
++ (UINib *)nib
+{
+    return [UINib nibWithNibName:[self reuseIdentifier] bundle:nil];
+}
+
++ (NSString *)reuseIdentifier
+{
+    return NSStringFromClass([self class]);
 }
 
 #pragma mark - setters getters

@@ -16,6 +16,9 @@
 
 - (void)addCornerMaskLayerWithRadius:(CGFloat)radius;
 
++ (void)registerNibForCellToTableView:(UITableView *)tableView;
++ (void)registerNibForHeaderFooterToTableView:(UITableView *)tableView;
+
 @property (nonatomic, assign) CGFloat centerX;
 @property (nonatomic, assign) CGFloat centerY;
 @property (nonatomic, assign) CGFloat x;
