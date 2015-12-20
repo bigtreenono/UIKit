@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ImageControl.h
 //  UIControlExample
 //
 //  Created by nice on 15/12/1.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ImageControl : UIControl
 
+- (instancetype)initWithFrame:(CGRect)frame title:(NSString *)title image:(UIImage *)image;
 
 @end
-

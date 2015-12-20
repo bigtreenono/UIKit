@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  UIControlExample
+//  TransparentLabel
 //
-//  Created by nice on 15/12/1.
-//  Copyright © 2015年 iosdev. All rights reserved.
+//  Created by Jeff on 12/20/15.
+//  Copyright © 2015 FNNishipu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
