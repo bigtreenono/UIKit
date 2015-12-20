@@ -101,7 +101,6 @@ const CGFloat LDRefreshHeaderHeight = 60;
 {
     if ([keyPath isEqualToString:@"contentOffset"])
     {
-//        NSLog(@"dragHeight %f, dragHeightThreshold %f, refreshState %zd, isDragging %d", self.dragHeight, self.dragHeightThreshold, _refreshState, _scrollView.isDragging);
         if (self.dragHeight < 0 || _refreshState == LDRefreshStateLoading)
         {
             return;
