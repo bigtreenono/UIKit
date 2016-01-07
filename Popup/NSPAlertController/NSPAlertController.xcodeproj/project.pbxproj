@@ -7,16 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1E27CA1C3BDF1C001B0431 /* PopupViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27C51C3BDF1C001B0431 /* PopupViewController1.m */; };
+		1F1E27CB1C3BDF1C001B0431 /* PopupViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27C71C3BDF1C001B0431 /* PopupViewController2.m */; };
+		1F1E27CC1C3BDF1C001B0431 /* PopupViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27C91C3BDF1C001B0431 /* PopupViewController3.m */; };
+		1F28C17E1C3D12F3005DCED5 /* NSPPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28C17D1C3D12F3005DCED5 /* NSPPopupController.m */; };
+		1F2FD94C1C38C6E900E654AC /* NSPPopupNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2FD94B1C38C6E900E654AC /* NSPPopupNavigationBar.m */; };
+		1F2FD94F1C38D14600E654AC /* NSPPopupLeftBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2FD94E1C38D14600E654AC /* NSPPopupLeftBarButtonItem.m */; };
+		1F2FD9521C38EDAE00E654AC /* UIViewController+NSPPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2FD9511C38EDAE00E654AC /* UIViewController+NSPPopup.m */; };
 		1FE4FD0D1C2FDA470087611E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE4FD0C1C2FDA470087611E /* main.m */; };
 		1FE4FD101C2FDA470087611E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE4FD0F1C2FDA470087611E /* AppDelegate.m */; };
 		1FE4FD131C2FDA470087611E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE4FD121C2FDA470087611E /* ViewController.m */; };
 		1FE4FD161C2FDA470087611E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE4FD141C2FDA470087611E /* Main.storyboard */; };
 		1FE4FD181C2FDA470087611E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE4FD171C2FDA470087611E /* Assets.xcassets */; };
 		1FE4FD1B1C2FDA470087611E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE4FD191C2FDA470087611E /* LaunchScreen.storyboard */; };
-		1FE4FD241C2FDA960087611E /* NSPAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE4FD231C2FDA960087611E /* NSPAlertController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F1E27C41C3BDF1C001B0431 /* PopupViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController1.h; sourceTree = "<group>"; };
+		1F1E27C51C3BDF1C001B0431 /* PopupViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController1.m; sourceTree = "<group>"; };
+		1F1E27C61C3BDF1C001B0431 /* PopupViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController2.h; sourceTree = "<group>"; };
+		1F1E27C71C3BDF1C001B0431 /* PopupViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController2.m; sourceTree = "<group>"; };
+		1F1E27C81C3BDF1C001B0431 /* PopupViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController3.h; sourceTree = "<group>"; };
+		1F1E27C91C3BDF1C001B0431 /* PopupViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController3.m; sourceTree = "<group>"; };
+		1F28C17C1C3D12F3005DCED5 /* NSPPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPPopupController.h; sourceTree = "<group>"; };
+		1F28C17D1C3D12F3005DCED5 /* NSPPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPPopupController.m; sourceTree = "<group>"; };
+		1F2FD94A1C38C6E900E654AC /* NSPPopupNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPPopupNavigationBar.h; sourceTree = "<group>"; };
+		1F2FD94B1C38C6E900E654AC /* NSPPopupNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPPopupNavigationBar.m; sourceTree = "<group>"; };
+		1F2FD94D1C38D14600E654AC /* NSPPopupLeftBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPPopupLeftBarButtonItem.h; sourceTree = "<group>"; };
+		1F2FD94E1C38D14600E654AC /* NSPPopupLeftBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPPopupLeftBarButtonItem.m; sourceTree = "<group>"; };
+		1F2FD9501C38EDAE00E654AC /* UIViewController+NSPPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NSPPopup.h"; sourceTree = "<group>"; };
+		1F2FD9511C38EDAE00E654AC /* UIViewController+NSPPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NSPPopup.m"; sourceTree = "<group>"; };
 		1FE4FD081C2FDA470087611E /* NSPAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSPAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE4FD0C1C2FDA470087611E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FE4FD0E1C2FDA470087611E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +47,6 @@
 		1FE4FD171C2FDA470087611E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FE4FD1A1C2FDA470087611E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FE4FD1C1C2FDA470087611E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FE4FD221C2FDA960087611E /* NSPAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPAlertController.h; sourceTree = "<group>"; };
-		1FE4FD231C2FDA960087611E /* NSPAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPAlertController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +79,24 @@
 		1FE4FD0A1C2FDA470087611E /* NSPAlertController */ = {
 			isa = PBXGroup;
 			children = (
+				1F1E27C41C3BDF1C001B0431 /* PopupViewController1.h */,
+				1F1E27C51C3BDF1C001B0431 /* PopupViewController1.m */,
+				1F1E27C61C3BDF1C001B0431 /* PopupViewController2.h */,
+				1F1E27C71C3BDF1C001B0431 /* PopupViewController2.m */,
+				1F1E27C81C3BDF1C001B0431 /* PopupViewController3.h */,
+				1F1E27C91C3BDF1C001B0431 /* PopupViewController3.m */,
 				1FE4FD0E1C2FDA470087611E /* AppDelegate.h */,
 				1FE4FD0F1C2FDA470087611E /* AppDelegate.m */,
 				1FE4FD111C2FDA470087611E /* ViewController.h */,
 				1FE4FD121C2FDA470087611E /* ViewController.m */,
-				1FE4FD221C2FDA960087611E /* NSPAlertController.h */,
-				1FE4FD231C2FDA960087611E /* NSPAlertController.m */,
+				1F28C17C1C3D12F3005DCED5 /* NSPPopupController.h */,
+				1F28C17D1C3D12F3005DCED5 /* NSPPopupController.m */,
+				1F2FD9501C38EDAE00E654AC /* UIViewController+NSPPopup.h */,
+				1F2FD9511C38EDAE00E654AC /* UIViewController+NSPPopup.m */,
+				1F2FD94D1C38D14600E654AC /* NSPPopupLeftBarButtonItem.h */,
+				1F2FD94E1C38D14600E654AC /* NSPPopupLeftBarButtonItem.m */,
+				1F2FD94A1C38C6E900E654AC /* NSPPopupNavigationBar.h */,
+				1F2FD94B1C38C6E900E654AC /* NSPPopupNavigationBar.m */,
 				1FE4FD141C2FDA470087611E /* Main.storyboard */,
 				1FE4FD171C2FDA470087611E /* Assets.xcassets */,
 				1FE4FD191C2FDA470087611E /* LaunchScreen.storyboard */,
@@ -154,10 +184,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FE4FD241C2FDA960087611E /* NSPAlertController.m in Sources */,
+				1F1E27CB1C3BDF1C001B0431 /* PopupViewController2.m in Sources */,
+				1F1E27CA1C3BDF1C001B0431 /* PopupViewController1.m in Sources */,
 				1FE4FD131C2FDA470087611E /* ViewController.m in Sources */,
+				1F2FD94C1C38C6E900E654AC /* NSPPopupNavigationBar.m in Sources */,
+				1F1E27CC1C3BDF1C001B0431 /* PopupViewController3.m in Sources */,
+				1F2FD9521C38EDAE00E654AC /* UIViewController+NSPPopup.m in Sources */,
 				1FE4FD101C2FDA470087611E /* AppDelegate.m in Sources */,
 				1FE4FD0D1C2FDA470087611E /* main.m in Sources */,
+				1F28C17E1C3D12F3005DCED5 /* NSPPopupController.m in Sources */,
+				1F2FD94F1C38D14600E654AC /* NSPPopupLeftBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +342,7 @@
 				1FE4FD211C2FDA470087611E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
