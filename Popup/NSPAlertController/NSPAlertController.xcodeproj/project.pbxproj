@@ -10,10 +10,21 @@
 		1F1E27CA1C3BDF1C001B0431 /* PopupViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27C51C3BDF1C001B0431 /* PopupViewController1.m */; };
 		1F1E27CB1C3BDF1C001B0431 /* PopupViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27C71C3BDF1C001B0431 /* PopupViewController2.m */; };
 		1F1E27CC1C3BDF1C001B0431 /* PopupViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27C91C3BDF1C001B0431 /* PopupViewController3.m */; };
-		1F28C17E1C3D12F3005DCED5 /* NSPPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28C17D1C3D12F3005DCED5 /* NSPPopupController.m */; };
-		1F2FD94C1C38C6E900E654AC /* NSPPopupNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2FD94B1C38C6E900E654AC /* NSPPopupNavigationBar.m */; };
-		1F2FD94F1C38D14600E654AC /* NSPPopupLeftBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2FD94E1C38D14600E654AC /* NSPPopupLeftBarButtonItem.m */; };
-		1F2FD9521C38EDAE00E654AC /* UIViewController+NSPPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2FD9511C38EDAE00E654AC /* UIViewController+NSPPopup.m */; };
+		1F20E5711C40CDBE00121967 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F20E5701C40CDBE00121967 /* main.m */; };
+		1F20E5741C40CDBE00121967 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F20E5731C40CDBE00121967 /* AppDelegate.m */; };
+		1F20E5771C40CDBE00121967 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F20E5761C40CDBE00121967 /* ViewController.m */; };
+		1F20E57A1C40CDBE00121967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F20E5781C40CDBE00121967 /* Main.storyboard */; };
+		1F20E57C1C40CDBE00121967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F20E57B1C40CDBE00121967 /* Assets.xcassets */; };
+		1F20E57F1C40CDBE00121967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F20E57D1C40CDBE00121967 /* LaunchScreen.storyboard */; };
+		1F38358D1C3E66A200B4751F /* View2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38358B1C3E66A200B4751F /* View2Controller.m */; };
+		1F38358E1C3E66A200B4751F /* View2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F38358C1C3E66A200B4751F /* View2Controller.xib */; };
+		1FA588431C3E385F00CA1007 /* STPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA5883A1C3E385F00CA1007 /* STPopupController.m */; };
+		1FA588441C3E385F00CA1007 /* STPopupLeftBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA5883C1C3E385F00CA1007 /* STPopupLeftBarItem.m */; };
+		1FA588451C3E385F00CA1007 /* STPopupNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA5883E1C3E385F00CA1007 /* STPopupNavigationBar.m */; };
+		1FA588461C3E385F00CA1007 /* UIResponder+STPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA588401C3E385F00CA1007 /* UIResponder+STPopup.m */; };
+		1FA588471C3E385F00CA1007 /* UIViewController+STPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA588421C3E385F00CA1007 /* UIViewController+STPopup.m */; };
+		1FA588501C3E423200CA1007 /* View1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA5884E1C3E423200CA1007 /* View1Controller.m */; };
+		1FA588511C3E423200CA1007 /* View1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FA5884F1C3E423200CA1007 /* View1Controller.xib */; };
 		1FE4FD0D1C2FDA470087611E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE4FD0C1C2FDA470087611E /* main.m */; };
 		1FE4FD101C2FDA470087611E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE4FD0F1C2FDA470087611E /* AppDelegate.m */; };
 		1FE4FD131C2FDA470087611E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE4FD121C2FDA470087611E /* ViewController.m */; };
@@ -29,14 +40,33 @@
 		1F1E27C71C3BDF1C001B0431 /* PopupViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController2.m; sourceTree = "<group>"; };
 		1F1E27C81C3BDF1C001B0431 /* PopupViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController3.h; sourceTree = "<group>"; };
 		1F1E27C91C3BDF1C001B0431 /* PopupViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController3.m; sourceTree = "<group>"; };
-		1F28C17C1C3D12F3005DCED5 /* NSPPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPPopupController.h; sourceTree = "<group>"; };
-		1F28C17D1C3D12F3005DCED5 /* NSPPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPPopupController.m; sourceTree = "<group>"; };
-		1F2FD94A1C38C6E900E654AC /* NSPPopupNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPPopupNavigationBar.h; sourceTree = "<group>"; };
-		1F2FD94B1C38C6E900E654AC /* NSPPopupNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPPopupNavigationBar.m; sourceTree = "<group>"; };
-		1F2FD94D1C38D14600E654AC /* NSPPopupLeftBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPPopupLeftBarButtonItem.h; sourceTree = "<group>"; };
-		1F2FD94E1C38D14600E654AC /* NSPPopupLeftBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPPopupLeftBarButtonItem.m; sourceTree = "<group>"; };
-		1F2FD9501C38EDAE00E654AC /* UIViewController+NSPPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NSPPopup.h"; sourceTree = "<group>"; };
-		1F2FD9511C38EDAE00E654AC /* UIViewController+NSPPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NSPPopup.m"; sourceTree = "<group>"; };
+		1F20E56D1C40CDBE00121967 /* aaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F20E5701C40CDBE00121967 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F20E5721C40CDBE00121967 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F20E5731C40CDBE00121967 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F20E5751C40CDBE00121967 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F20E5761C40CDBE00121967 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F20E5791C40CDBE00121967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F20E57B1C40CDBE00121967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F20E57E1C40CDBE00121967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F20E5801C40CDBE00121967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F38358A1C3E66A200B4751F /* View2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View2Controller.h; sourceTree = "<group>"; };
+		1F38358B1C3E66A200B4751F /* View2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View2Controller.m; sourceTree = "<group>"; };
+		1F38358C1C3E66A200B4751F /* View2Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View2Controller.xib; sourceTree = "<group>"; };
+		1FA588381C3E385F00CA1007 /* STPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopup.h; sourceTree = "<group>"; };
+		1FA588391C3E385F00CA1007 /* STPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupController.h; sourceTree = "<group>"; };
+		1FA5883A1C3E385F00CA1007 /* STPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopupController.m; sourceTree = "<group>"; };
+		1FA5883B1C3E385F00CA1007 /* STPopupLeftBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupLeftBarItem.h; sourceTree = "<group>"; };
+		1FA5883C1C3E385F00CA1007 /* STPopupLeftBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopupLeftBarItem.m; sourceTree = "<group>"; };
+		1FA5883D1C3E385F00CA1007 /* STPopupNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupNavigationBar.h; sourceTree = "<group>"; };
+		1FA5883E1C3E385F00CA1007 /* STPopupNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopupNavigationBar.m; sourceTree = "<group>"; };
+		1FA5883F1C3E385F00CA1007 /* UIResponder+STPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+STPopup.h"; sourceTree = "<group>"; };
+		1FA588401C3E385F00CA1007 /* UIResponder+STPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+STPopup.m"; sourceTree = "<group>"; };
+		1FA588411C3E385F00CA1007 /* UIViewController+STPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+STPopup.h"; sourceTree = "<group>"; };
+		1FA588421C3E385F00CA1007 /* UIViewController+STPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+STPopup.m"; sourceTree = "<group>"; };
+		1FA5884D1C3E423200CA1007 /* View1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View1Controller.h; sourceTree = "<group>"; };
+		1FA5884E1C3E423200CA1007 /* View1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View1Controller.m; sourceTree = "<group>"; };
+		1FA5884F1C3E423200CA1007 /* View1Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View1Controller.xib; sourceTree = "<group>"; };
 		1FE4FD081C2FDA470087611E /* NSPAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSPAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE4FD0C1C2FDA470087611E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FE4FD0E1C2FDA470087611E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,6 +80,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1F20E56A1C40CDBE00121967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FE4FD051C2FDA470087611E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,10 +97,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F20E56E1C40CDBE00121967 /* aaa */ = {
+			isa = PBXGroup;
+			children = (
+				1F20E5721C40CDBE00121967 /* AppDelegate.h */,
+				1F20E5731C40CDBE00121967 /* AppDelegate.m */,
+				1F20E5751C40CDBE00121967 /* ViewController.h */,
+				1F20E5761C40CDBE00121967 /* ViewController.m */,
+				1F20E5781C40CDBE00121967 /* Main.storyboard */,
+				1F20E57B1C40CDBE00121967 /* Assets.xcassets */,
+				1F20E57D1C40CDBE00121967 /* LaunchScreen.storyboard */,
+				1F20E5801C40CDBE00121967 /* Info.plist */,
+				1F20E56F1C40CDBE00121967 /* Supporting Files */,
+			);
+			path = aaa;
+			sourceTree = "<group>";
+		};
+		1F20E56F1C40CDBE00121967 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F20E5701C40CDBE00121967 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FA588371C3E385F00CA1007 /* STPopup */ = {
+			isa = PBXGroup;
+			children = (
+				1FA588381C3E385F00CA1007 /* STPopup.h */,
+				1FA588391C3E385F00CA1007 /* STPopupController.h */,
+				1FA5883A1C3E385F00CA1007 /* STPopupController.m */,
+				1FA5883B1C3E385F00CA1007 /* STPopupLeftBarItem.h */,
+				1FA5883C1C3E385F00CA1007 /* STPopupLeftBarItem.m */,
+				1FA5883D1C3E385F00CA1007 /* STPopupNavigationBar.h */,
+				1FA5883E1C3E385F00CA1007 /* STPopupNavigationBar.m */,
+				1FA5883F1C3E385F00CA1007 /* UIResponder+STPopup.h */,
+				1FA588401C3E385F00CA1007 /* UIResponder+STPopup.m */,
+				1FA588411C3E385F00CA1007 /* UIViewController+STPopup.h */,
+				1FA588421C3E385F00CA1007 /* UIViewController+STPopup.m */,
+			);
+			path = STPopup;
+			sourceTree = "<group>";
+		};
 		1FE4FCFF1C2FDA470087611E = {
 			isa = PBXGroup;
 			children = (
 				1FE4FD0A1C2FDA470087611E /* NSPAlertController */,
+				1F20E56E1C40CDBE00121967 /* aaa */,
 				1FE4FD091C2FDA470087611E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				1FE4FD081C2FDA470087611E /* NSPAlertController.app */,
+				1F20E56D1C40CDBE00121967 /* aaa.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,24 +160,23 @@
 		1FE4FD0A1C2FDA470087611E /* NSPAlertController */ = {
 			isa = PBXGroup;
 			children = (
+				1FA588371C3E385F00CA1007 /* STPopup */,
+				1FA5884D1C3E423200CA1007 /* View1Controller.h */,
+				1FA5884E1C3E423200CA1007 /* View1Controller.m */,
+				1FA5884F1C3E423200CA1007 /* View1Controller.xib */,
+				1F38358A1C3E66A200B4751F /* View2Controller.h */,
+				1F38358B1C3E66A200B4751F /* View2Controller.m */,
+				1F38358C1C3E66A200B4751F /* View2Controller.xib */,
+				1FE4FD111C2FDA470087611E /* ViewController.h */,
+				1FE4FD121C2FDA470087611E /* ViewController.m */,
+				1FE4FD0E1C2FDA470087611E /* AppDelegate.h */,
+				1FE4FD0F1C2FDA470087611E /* AppDelegate.m */,
 				1F1E27C41C3BDF1C001B0431 /* PopupViewController1.h */,
 				1F1E27C51C3BDF1C001B0431 /* PopupViewController1.m */,
 				1F1E27C61C3BDF1C001B0431 /* PopupViewController2.h */,
 				1F1E27C71C3BDF1C001B0431 /* PopupViewController2.m */,
 				1F1E27C81C3BDF1C001B0431 /* PopupViewController3.h */,
 				1F1E27C91C3BDF1C001B0431 /* PopupViewController3.m */,
-				1FE4FD0E1C2FDA470087611E /* AppDelegate.h */,
-				1FE4FD0F1C2FDA470087611E /* AppDelegate.m */,
-				1FE4FD111C2FDA470087611E /* ViewController.h */,
-				1FE4FD121C2FDA470087611E /* ViewController.m */,
-				1F28C17C1C3D12F3005DCED5 /* NSPPopupController.h */,
-				1F28C17D1C3D12F3005DCED5 /* NSPPopupController.m */,
-				1F2FD9501C38EDAE00E654AC /* UIViewController+NSPPopup.h */,
-				1F2FD9511C38EDAE00E654AC /* UIViewController+NSPPopup.m */,
-				1F2FD94D1C38D14600E654AC /* NSPPopupLeftBarButtonItem.h */,
-				1F2FD94E1C38D14600E654AC /* NSPPopupLeftBarButtonItem.m */,
-				1F2FD94A1C38C6E900E654AC /* NSPPopupNavigationBar.h */,
-				1F2FD94B1C38C6E900E654AC /* NSPPopupNavigationBar.m */,
 				1FE4FD141C2FDA470087611E /* Main.storyboard */,
 				1FE4FD171C2FDA470087611E /* Assets.xcassets */,
 				1FE4FD191C2FDA470087611E /* LaunchScreen.storyboard */,
@@ -117,6 +197,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1F20E56C1C40CDBE00121967 /* aaa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F20E5811C40CDBE00121967 /* Build configuration list for PBXNativeTarget "aaa" */;
+			buildPhases = (
+				1F20E5691C40CDBE00121967 /* Sources */,
+				1F20E56A1C40CDBE00121967 /* Frameworks */,
+				1F20E56B1C40CDBE00121967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aaa;
+			productName = aaa;
+			productReference = 1F20E56D1C40CDBE00121967 /* aaa.app */;
+			productType = "com.apple.product-type.application";
+		};
 		1FE4FD071C2FDA470087611E /* NSPAlertController */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FE4FD1F1C2FDA470087611E /* Build configuration list for PBXNativeTarget "NSPAlertController" */;
@@ -143,6 +240,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = FNNishipu;
 				TargetAttributes = {
+					1F20E56C1C40CDBE00121967 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					1FE4FD071C2FDA470087611E = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -162,44 +262,86 @@
 			projectRoot = "";
 			targets = (
 				1FE4FD071C2FDA470087611E /* NSPAlertController */,
+				1F20E56C1C40CDBE00121967 /* aaa */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1F20E56B1C40CDBE00121967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F20E57F1C40CDBE00121967 /* LaunchScreen.storyboard in Resources */,
+				1F20E57C1C40CDBE00121967 /* Assets.xcassets in Resources */,
+				1F20E57A1C40CDBE00121967 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FE4FD061C2FDA470087611E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA588511C3E423200CA1007 /* View1Controller.xib in Resources */,
 				1FE4FD1B1C2FDA470087611E /* LaunchScreen.storyboard in Resources */,
 				1FE4FD181C2FDA470087611E /* Assets.xcassets in Resources */,
 				1FE4FD161C2FDA470087611E /* Main.storyboard in Resources */,
+				1F38358E1C3E66A200B4751F /* View2Controller.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1F20E5691C40CDBE00121967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F20E5771C40CDBE00121967 /* ViewController.m in Sources */,
+				1F20E5741C40CDBE00121967 /* AppDelegate.m in Sources */,
+				1F20E5711C40CDBE00121967 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FE4FD041C2FDA470087611E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA588501C3E423200CA1007 /* View1Controller.m in Sources */,
+				1F38358D1C3E66A200B4751F /* View2Controller.m in Sources */,
+				1FA588451C3E385F00CA1007 /* STPopupNavigationBar.m in Sources */,
+				1FA588471C3E385F00CA1007 /* UIViewController+STPopup.m in Sources */,
 				1F1E27CB1C3BDF1C001B0431 /* PopupViewController2.m in Sources */,
+				1FA588441C3E385F00CA1007 /* STPopupLeftBarItem.m in Sources */,
 				1F1E27CA1C3BDF1C001B0431 /* PopupViewController1.m in Sources */,
 				1FE4FD131C2FDA470087611E /* ViewController.m in Sources */,
-				1F2FD94C1C38C6E900E654AC /* NSPPopupNavigationBar.m in Sources */,
 				1F1E27CC1C3BDF1C001B0431 /* PopupViewController3.m in Sources */,
-				1F2FD9521C38EDAE00E654AC /* UIViewController+NSPPopup.m in Sources */,
 				1FE4FD101C2FDA470087611E /* AppDelegate.m in Sources */,
 				1FE4FD0D1C2FDA470087611E /* main.m in Sources */,
-				1F28C17E1C3D12F3005DCED5 /* NSPPopupController.m in Sources */,
-				1F2FD94F1C38D14600E654AC /* NSPPopupLeftBarButtonItem.m in Sources */,
+				1FA588461C3E385F00CA1007 /* UIResponder+STPopup.m in Sources */,
+				1FA588431C3E385F00CA1007 /* STPopupController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		1F20E5781C40CDBE00121967 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F20E5791C40CDBE00121967 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F20E57D1C40CDBE00121967 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F20E57E1C40CDBE00121967 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		1FE4FD141C2FDA470087611E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -219,6 +361,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1F20E5821C40CDBE00121967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = aaa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiniu.aaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F20E5831C40CDBE00121967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = aaa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiniu.aaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		1FE4FD1D1C2FDA470087611E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -326,6 +490,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1F20E5811C40CDBE00121967 /* Build configuration list for PBXNativeTarget "aaa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F20E5821C40CDBE00121967 /* Debug */,
+				1F20E5831C40CDBE00121967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		1FE4FD031C2FDA470087611E /* Build configuration list for PBXProject "NSPAlertController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

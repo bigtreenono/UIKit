@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
-#import "NSPPopupController.h"
 #import "PopupViewController1.h"
+#import "STPopup.h"
+#import "View1Controller.h"
+#import "View2Controller.h"
 
 @interface ViewController ()
 
@@ -16,15 +18,32 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (IBAction)buttonAction:(id)sender
 {
-    NSPPopupController *popup = [[NSPPopupController alloc] initWithRootViewController:[PopupViewController1 new]];
-    [popup presentInViewController:self];
+//    [View2Controller showSheetInViewController:self callBack:^(UIViewController *viewController, BOOL isConfirmAction) {
+//        
+//    }];
+    
+    [[[View1Controller alloc] initWithText:@"hello"] showPopupInViewController:self style:STPopupStyleFormSheet callBack:^(UIViewController *viewController, BOOL isConfirmAction) {
+        
+    }];
+    
+//    [View1Controller showAlertInViewController:self callBack:^(UIViewController *vc, BOOL isConfirmAction) {
+//        if (isConfirmAction)
+//        {
+//            NSLog(@"22222222222222222222222222222222222222222222222222222222222222");
+//        }
+//        else
+//        {
+//            NSLog(@"3333333333333333333333333333333333333333333333333333333333333333333333333333333333");
+//        }
+//    }];
+    
     
 //    NSPAlertController *alertController = [NSPAlertController alertControllerWithTitle:@"title" message:@"message" preferredStyle:NSPAlertControllerStyleAlert];
 //    
